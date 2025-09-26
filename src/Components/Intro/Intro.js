@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react' 
 import './Intro.css';
 import bg from './../../assets/image.png'
-import { Link } from 'react-scroll';
 import btnImg from './../../assets/hireme.png'
 
 const Intro = () => {
@@ -13,11 +12,21 @@ const Intro = () => {
             <p className='introPara'>
                 I'm a skilled web designer with experience in creating <br /> visually appealing and user friendly websites
             </p>
-            <Link><button className='btn'><img src={btnImg} alt='Hire me' className='btnImg'/>Hire Me</button></Link>
+            <a 
+              href='https://t.me/nure37'  
+              target='_blank' 
+              rel='noopener noreferrer'
+            >
+                <button className='btn'>
+                  <img src={btnImg} alt='Hire me' className='btnImg'/>
+                  Hire Me
+                </button>
+            </a>
         </div>
-        <img src= {bg} alt='Profile' className='bg' />
+
+        <img src={bg} alt='Profile' className='bg' />
     </section>
   )
 }
 
-export default Intro
+export default Intro;
