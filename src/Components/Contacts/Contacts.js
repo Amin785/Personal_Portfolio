@@ -56,14 +56,8 @@ const Contacts = () => {
           <input type='email' name='user_email' placeholder='Your Email' className='email' required />
           <textarea name='message' placeholder='Your Message' className='msg' rows='5' required></textarea>
           <button type='submit' className='submitbtn'>Submit</button>
-<<<<<<< HEAD
     <div className='links'>
     <a href='https://t.me/nure37' target='_blank' rel='noopener noreferrer'>
-=======
-
-          <div className='links'>
-  <a href='https://t.me/nure37' target='_blank' rel='noopener noreferrer'>
->>>>>>> 4fffa73 (Updated portfolio: added animations, moved styles, deleted old style.css)
     <img src={TelegramIcon} alt='Telegram' className='link' />
   </a>
   <a href='https://www.instagram.com/lij_amin_gel/' target='_blank' rel='noopener noreferrer'>
@@ -76,10 +70,6 @@ const Contacts = () => {
     <img src={TwitterIcon} alt='Twitter' className='link' />
   </a>
 </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 4fffa73 (Updated portfolio: added animations, moved styles, deleted old style.css)
         </form>
       </div>
     </section>
