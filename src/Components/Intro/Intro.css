@@ -41,18 +41,33 @@
     margin-right: 40rem;
     font-size: 2.1rem;
 }
-.btn{
-    margin: 1rem 0;
-    background: white;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 2rem;
-
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
-.btnImg{
-    object-fit: cover;
-    margin: 0 0.25rem;
-    height: 1rem;
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.btnImg {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover .btnImg {
+  transform: rotate(20deg);
 }
 @media screen and (max-width: 840px) {
 
