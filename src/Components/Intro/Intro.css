@@ -69,6 +69,11 @@
 .btn:hover .btnImg {
   transform: rotate(20deg);
 }
+
+.btn:hover .btnImg {
+  transform: rotate(20deg);
+}
+
 @media screen and (max-width: 840px) {
 
    .bg{

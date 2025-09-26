@@ -26,23 +26,50 @@
     max-width: 80%;
     text-align: left;
 }
-.skillbar{
-    display: flex;
-    background: rgb(50, 50, 50);
-    margin: 1rem;
-    padding: 1.5rem 2rem;
-    border-radius: 0.5rem;
+/* Animate whole card */
+.skillbar {
+  display: flex;
+  background: rgb(50, 50, 50);
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth animation */
+  cursor: pointer;
 }
-.skillbarImg{
-    object-fit: cover;
-    width: 3rem;
-    height: 3rem;
-    margin-right: 2rem;
+
+.skillbar:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
-.skilbarText>p{
-    font-size: 1rem;
-    font-weight: 300;
+
+/* Animate image */
+.skillbarImg {
+  object-fit: cover;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  transition: transform 0.4s ease;
 }
+
+.skillbar:hover .skillbarImg {
+  transform: rotate(10deg) scale(1.15);
+}
+
+/* Animate text */
+.skilbarText {
+  transition: transform 0.4s ease, color 0.3s ease;
+}
+
+.skillbar:hover .skilbarText {
+  transform: translateX(5px);
+  color: #1e90ff; /* light blue on hover */
+}
+
+.skilbarText > p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 @media screen and (max-width:720px){
     .skilbarText{
         font-size: 2vw;
