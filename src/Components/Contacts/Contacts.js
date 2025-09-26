@@ -56,13 +56,20 @@ const Contacts = () => {
           <input type='email' name='user_email' placeholder='Your Email' className='email' required />
           <textarea name='message' placeholder='Your Message' className='msg' rows='5' required></textarea>
           <button type='submit' className='submitbtn'>Submit</button>
-
-          <div className='links'>
-            <img src={TelegramIcon} alt='TelegramIcon' className='link' />
-            <img src={InstagramIcon} alt='InstagramIcon' className='link' />
-            <img src={FacebookIcon} alt='FacebookIcon' className='link' />
-            <img src={TwitterIcon} alt='TwitterIcon' className='link' />
-          </div>
+    <div className='links'>
+    <a href='https://t.me/nure37' target='_blank' rel='noopener noreferrer'>
+    <img src={TelegramIcon} alt='Telegram' className='link' />
+  </a>
+  <a href='https://www.instagram.com/lij_amin_gel/' target='_blank' rel='noopener noreferrer'>
+    <img src={InstagramIcon} alt='Instagram' className='link' />
+  </a>
+  <a href='https://www.facebook.com/Amin Galato/' target='_blank' rel='noopener noreferrer'>
+    <img src={FacebookIcon} alt='Facebook' className='link' />
+  </a>
+  <a href='https://twitter.com/YourTwitterUsername' target='_blank' rel='noopener noreferrer'>
+    <img src={TwitterIcon} alt='Twitter' className='link' />
+  </a>
+</div>
         </form>
       </div>
     </section>
