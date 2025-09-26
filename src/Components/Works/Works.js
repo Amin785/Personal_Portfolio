@@ -9,9 +9,9 @@ import portfolio6 from './../../assets/portfolio-6.png'
 
 const Works = () => {
   const projects = [
-    { img: portfolio1, link: 'https://github.com/your-username/project1' },
-    { img: portfolio2, link: 'https://github.com/your-username/project2' },
-    { img: portfolio3, link: 'https://github.com/your-username/project3' },
+    { img: portfolio1, link: 'https://github.com/Amin785/Scientific-calculator' },
+    { img: portfolio2, link: 'https://github.com/Amin785/Weather-App' },
+    { img: portfolio3, link: 'https://github.com/Amin785/e-commerce-store' },
     { img: portfolio4, link: 'https://github.com/your-username/project4' },
     { img: portfolio5, link: 'https://github.com/your-username/project5' },
     { img: portfolio6, link: 'https://github.com/your-username/project6' },
