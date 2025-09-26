@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Personal_Portfolio/static/css/main.d4bf4f3d.css",
+    "main.js": "/Personal_Portfolio/static/js/main.22945e0a.js",
+    "static/media/image.png": "/Personal_Portfolio/static/media/image.97c22fe3e3bdeedfad79.png",
+    "static/media/portfolio-4.png": "/Personal_Portfolio/static/media/portfolio-4.2eda7da5b09473dab776.png",
+    "static/media/portfolio-5.png": "/Personal_Portfolio/static/media/portfolio-5.53052cae4da6a8d6f13c.png",
+    "static/media/portfolio-6.png": "/Personal_Portfolio/static/media/portfolio-6.4a10fac7d271e87859e9.png",
+    "static/media/portfolio-3.png": "/Personal_Portfolio/static/media/portfolio-3.04cd08aa138fe4c54763.png",
+    "static/media/portfolio-1.png": "/Personal_Portfolio/static/media/portfolio-1.43574a1a2d0b627561e9.png",
+    "static/media/portfolio-2.png": "/Personal_Portfolio/static/media/portfolio-2.aff804215d946dee9831.png",
+    "static/media/microsoft.png": "/Personal_Portfolio/static/media/microsoft.a07c46d338ff76c9a85c.png",
+    "static/media/embeded.webp": "/Personal_Portfolio/static/media/embeded.e66110c2996b88de864a.webp",
+    "static/media/telegram.png": "/Personal_Portfolio/static/media/telegram.45d76c60ed8a95e228fc.png",
+    "static/media/ui-design.png": "/Personal_Portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/instagram.png": "/Personal_Portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/Personal_Portfolio/index.html",
+    "main.d4bf4f3d.css.map": "/Personal_Portfolio/static/css/main.d4bf4f3d.css.map",
+    "main.22945e0a.js.map": "/Personal_Portfolio/static/js/main.22945e0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4bf4f3d.css",
+    "static/js/main.22945e0a.js"
+  ]
+}
