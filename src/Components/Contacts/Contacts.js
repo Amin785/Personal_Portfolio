@@ -6,6 +6,8 @@ import TwitterIcon from './../../assets/twitter.png'
 import TelegramIcon from './../../assets/telegram.png'
 import InstagramIcon from './../../assets/instagram.png'
 import emailjs from '@emailjs/browser';
+import { motion } from 'motion/react'
+
 
 const Contacts = () => {
   const form = useRef();
@@ -33,9 +35,18 @@ const Contacts = () => {
   };
 
   return (
-    <section id='contactPages'>
+    <motion.section 
+       initial={{opacity: 0, y:500}} 
+       transition={{duration: 5}}
+       whileInView={{opacity: 1, y:0}}
+       viewport={{once: true}}
+     
+     
+     
+     
+     id='contactPages'>
       <div id='client'>
-        <h1 className='clientPagetitle'>My Internship</h1>
+        <h1 className='clientPagetitle'>My Experience</h1>
         <p className='contacPageDes'>
           I have had the opportunity to intern at the Ministry of Innovation and Technology of Ethiopia, 
           where I contributed to projects in web development and embedded systems.
@@ -72,7 +83,7 @@ const Contacts = () => {
 </div>
         </form>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

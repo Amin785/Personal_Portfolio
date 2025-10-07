@@ -4,10 +4,20 @@ import WebDesign from './../../assets/website-design.png'
 import AppDesign from './../../assets/app-design.png'
 import Embeded from './../../assets/embeded.webp'
 import './Skills.css'
+import { motion } from "motion/react"
 
 const Skills = () => {
   return (
-    <section id='skills'>
+    <motion.section 
+       initial={{opacity: 0, x:-500}} 
+       transition={{duration: 5}}
+       whileInView={{opacity: 1, x:0}}
+       viewport={{once: true}}
+
+
+
+
+        id='skills'>
         <span className='skillTitle'>What I do</span>
         <span className='skillDescription'>
           I'm skilled and passionate web designer with experience in building modern, responsive web applications using React and Node.js, develop embedded systems with microcontrollers like ESP32 and Arduino, and create IoT solutions that connect devices with cloud services and data-driven interfaces.  
@@ -42,7 +52,7 @@ const Skills = () => {
                 </div>
             </div>
         </div>
-    </section>
+    </motion.section>
   )
 }
 
