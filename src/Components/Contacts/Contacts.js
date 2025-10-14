@@ -36,8 +36,8 @@ const Contacts = () => {
 
   return (
     <motion.section 
-       initial={{opacity: 0, y:500}} 
-       transition={{duration: 5}}
+       initial={{opacity: 0, y:100}} 
+       transition={{duration: 1.5}}
        whileInView={{opacity: 1, y:0}}
        viewport={{once: true}}
      
