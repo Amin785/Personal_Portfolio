@@ -28,8 +28,8 @@ const Works = () => {
   return (
     <motion.section
       id='works'
-      initial={{ opacity: 0, x: 500 }}
-      transition={{ duration: 3 }}
+      initial={{ opacity: 0, x: 100 }}
+      transition={{ duration: 1 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
     >
